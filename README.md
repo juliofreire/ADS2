@@ -11,3 +11,9 @@ To level all the students to start the course, the first exercise is learn how d
 [GitHub Learning Game](https://learngitbranching.js.org/?locale=pt_BR)
 
 [Kaggle Python Courses](https://www.kaggle.com/learn/python)
+
+## Second Week
+
+Autocomplete words
+
+The idea behind this project is to create a system that can autocomplete a word using AVL Tree
