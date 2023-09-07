@@ -183,13 +183,13 @@ class AVLTree(BST):
               return self._rotate_left(node)
           
     def search_prefix(self,node,prefix):
-        if node is None: #Ou seja, caso o nó esteja vazio
+        if node is None: #if value of node is none
             return []
-        if node.value.startswith(prefix):
+        if node.value.startswith(prefix): # if the string of node starts with a prefix search to the left and to the right with
             return [node.value] + self.search_prefix(node.left_child,prefix)+self.search_prefix(node.right_child,prefix)
-        if prefix < node.value:
+        if prefix < node.value: # if the prefix is before the current node
             return self.search_prefix(node.left_child,prefix)
-        else:
+        else: # if the prefix is later the current node
             return self.search_prefix(node.right_child,prefix)
 
     def search_word(self,prefix):

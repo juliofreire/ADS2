@@ -17,6 +17,8 @@ def clean_text(text):
     # Loading the portuguese stopwords
     stopdwords_ = set(stopwords.words("portuguese"))
 
+    # removing stopwords and casting to a set and list again
+    # it will remove duplicated words
     text_clean = [word_ for word_ in list_text if word_ not in stopdwords_]
     text_clean = set(text_clean)
     text_clean = list(text_clean)

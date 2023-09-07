@@ -9,7 +9,7 @@ A idosa, que não teve o nome divulgado, trabalhava para a família há 50 anos,
 A idosa dormia em um sofá, caso precisasse se levantar de madrugada para cuidar da mulher de 100 anos. Ela usava um pequeno banheiro localizado na parte externa da casa"""
 
 palavras_sem_parada = clean_text(texto)
-
+print(palavras_sem_parada)
 avl = AVLTree()
 for v in palavras_sem_parada:
     avl.add(v)
