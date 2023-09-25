@@ -24,7 +24,7 @@ This works same with get_laptop_from_id, but the function the determines the vel
 
 ## Function: check_promotion_dollars
 
-Independent of the worst or better case, it will execute the lines with the highest polynomial order 2, so $O(N^2)$, $\Omega(N^2)$ and $\Theta(N^2)$,
+Independent of the worst or better case, it will execute the lines with the quadratic polynomial order, so $O(N^2)$, $\Omega(N^2)$ and $\Theta(N^2)$,
 
 ## Function: check_promotion_dollars_fast
 
@@ -32,7 +32,7 @@ This function works same as the previous but for use a better methodogy can save
 
 ## Function: find_laptop_with_price
 
-It's a known algorith as binary search that has the $O(log N)$, $\Omega(1)$ and $\Theta(logN)$.
+This function employs a well-known algorithm called binary search that has the $O(log N)$, $\Omega(1)$ and $\Theta(logN)$.
 
 ## Function: find_laptop_between_two_prices
 
