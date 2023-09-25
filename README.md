@@ -16,4 +16,5 @@ To level all the students to start the course, the first exercise is learn how d
 
 Autocomplete words
 
-The idea behind this project is to create a system that can autocomplete a word using AVL Tree
+The idea behind this project is to create a system that can autocomplete a word using AVL Tree.
+Find more details in this [link](https://github.com/juliofreire/ADS2/tree/main/auto_complete_project)
