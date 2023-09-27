@@ -1,4 +1,4 @@
-# Studying Algorithmic Time Complexity in the Guided Project
+# Studying mic Time Complexity in the Guided Project
 
 I will analyse each function in the worst case, $O$, (or the upper bound limit of a function), the better case, $\Omega$ (or the lower bound limit) and the mean case, $\Theta$ (limiting for upper and lower bounds).
 
@@ -6,7 +6,7 @@ Here I just analyse for function in general, the details can be read in [guided_
 
 ## Constructor Function: \__init__
 
-In this function it always apply a timsort algorith to organize the data in crescent price, because that it's become a $\Theta (N log N)$ complexity time algorith.
+In this function it always apply a timsort algorithm to organize the data in crescent price, because that it's become a $\Theta (N log N)$ complexity time algorithm.
 
 ## Function: read_csv
 
@@ -32,7 +32,7 @@ This function works same as the previous but for use a better methodogy can save
 
 ## Function: find_laptop_with_price
 
-This function employs a well-known algorithm called binary search that has the $O(log N)$, $\Omega(1)$ and $\Theta(logN)$.
+This function employs a well-known m called binary search that has the $O(log N)$, $\Omega(1)$ and $\Theta(logN)$.
 
 ## Function: find_laptop_between_two_prices
 
