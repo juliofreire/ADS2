@@ -1,8 +1,8 @@
-# Time complexity of algorithm of guided project
+# Studying Algorithmic Time Complexity in the Guided Project
 
 I will analyse each function in the worst case, $O$, (or the upper bound limit of a function), the better case, $\Omega$ (or the lower bound limit) and the mean case, $\Theta$ (limiting for upper and lower bounds).
 
-Here I just analyse for function in general, the details can be read in [guided_project]() file. Also, I used $C$ to a constant to execute one line, keep in mind all the lines have differents constants, but to simplify I just used C.
+Here I just analyse for function in general, the details can be read in [guided_project](https://github.com/juliofreire/ADS2/blob/main/algorithm_complexity/guided_project.py) file. Also, I used $C$ to a constant to execute one line, keep in mind all the lines have differents constants, but to simplify I just used C.
 
 ## Constructor Function: \__init__
 
