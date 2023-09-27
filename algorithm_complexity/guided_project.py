@@ -84,16 +84,13 @@ class Inventory():
             return False # C
         
     # As the check_promotion_dollars function above but with a fast methodology
-    def check_promotion_dollars_fast(self, dollars): # 2 N^2 + 3N + C /// big O(N^2) big omega(N^2) big theta(N)
-        if dollars in self.prices: # N
+    def check_promotion_dollars_fast(self, dollars): # 3N + C /// big O(N) big omega(1) big theta(N)
+        if dollars in self.prices: # worst N
             return True # C
         
-        for price1 in self.prices: # N
-            if 2*price1 == dollars: # worst case N
+        for price in self.prices: # N
+            if dollars - price in self.prices: # worst case N
                 return True # C
-            for price2 in self.prices: # N^2
-                if price1 + price2 == dollars: # worst case N^2
-                    return True # C
         return False # C
     
     def find_laptop_with_price(self, target_price): #  log N + 3 C // big O(log N) big omega(1) big theta(log N)
