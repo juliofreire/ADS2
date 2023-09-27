@@ -4,6 +4,8 @@ I will analyse each function in the worst case, $O$, (or the upper bound limit o
 
 Here I just analyse for function in general, the details can be read in [guided_project](https://github.com/juliofreire/ADS2/blob/main/algorithm_complexity/guided_project.py) file. Also, I used $C$ to a constant to execute one line, keep in mind all the lines have differents constants, but to simplify I just used C.
 
+Check out this (video)[https://youtu.be/ij-fRRXfIZ8] where I explain it all! It's packed with my ideas about the analysis. Watch it!
+
 ## Constructor Function: \__init__
 
 In this function it always apply a timsort algorithm to organize the data in crescent price, because that it's become a $\Theta (N log N)$ complexity time algorithm.
