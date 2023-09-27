@@ -28,7 +28,7 @@ Independent of the worst or better case, it will execute the lines with the quad
 
 ## Function: check_promotion_dollars_fast
 
-This function works same as the previous but for use a better methodogy can save some time in the general process despite has the same time complexity, $O(N^2)$, $\Omega(N^2)$ and $\Theta(N^2)$.
+This function works by searching an ID in a dictonary, and its complexity can be $O(N)$, $\Omega(1)$ and $\Theta(N)$. This depends on how the dictionary maps id into keys.
 
 ## Function: find_laptop_with_price
 
