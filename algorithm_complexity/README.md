@@ -1,4 +1,4 @@
-# Studying mic Time Complexity in the Guided Project
+# Studying Algorithmic Time Complexity in the Guided Project
 
 I will analyse each function in the worst case, $O$, (or the upper bound limit of a function), the better case, $\Omega$ (or the lower bound limit) and the mean case, $\Theta$ (limiting for upper and lower bounds).
 
