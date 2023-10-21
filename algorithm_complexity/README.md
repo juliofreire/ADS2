@@ -1,12 +1,14 @@
-# Time complexity of algorithm of guided project
+# Studying Algorithmic Time Complexity in the Guided Project
 
 I will analyse each function in the worst case, $O$, (or the upper bound limit of a function), the better case, $\Omega$ (or the lower bound limit) and the mean case, $\Theta$ (limiting for upper and lower bounds).
 
-Here I just analyse for function in general, the details can be read in [guided_project]() file. Also, I used $C$ to a constant to execute one line, keep in mind all the lines have differents constants, but to simplify I just used C.
+Here I just analyse for function in general, the details can be read in [guided_project](https://github.com/juliofreire/ADS2/blob/main/algorithm_complexity/guided_project.py) file. Also, I used $C$ to a constant to execute one line, keep in mind all the lines have differents constants, but to simplify I just used C.
+
+Check out this [video](https://youtu.be/ij-fRRXfIZ8) where I explain it all! It's packed with my ideas about the analysis. Watch it!
 
 ## Constructor Function: \__init__
 
-In this function it always apply a timsort algorith to organize the data in crescent price, because that it's become a $\Theta (N log N)$ complexity time algorith.
+In this function it always apply a timsort algorithm to organize the data in crescent price, because that it's become a $\Theta (N log N)$ complexity time algorithm.
 
 ## Function: read_csv
 
@@ -28,11 +30,11 @@ Independent of the worst or better case, it will execute the lines with the quad
 
 ## Function: check_promotion_dollars_fast
 
-This function works same as the previous but for use a better methodogy can save some time in the general process despite has the same time complexity, $O(N^2)$, $\Omega(N^2)$ and $\Theta(N^2)$.
+This function works by searching an ID in a dictonary, and its complexity can be $O(N)$, $\Omega(1)$ and $\Theta(N)$. This depends on how the dictionary maps id into keys.
 
 ## Function: find_laptop_with_price
 
-This function employs a well-known algorithm called binary search that has the $O(log N)$, $\Omega(1)$ and $\Theta(logN)$.
+This function employs a well-known m called binary search that has the $O(log N)$, $\Omega(1)$ and $\Theta(logN)$.
 
 ## Function: find_laptop_between_two_prices
 
