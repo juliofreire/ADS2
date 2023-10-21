@@ -1,0 +1,1 @@
+![README](https://github.com/juliofreire/ADS2/blob/main/f1_clash_project/img/Slides_dark.png)
